@@ -7,7 +7,7 @@ export default function Home() {
       <main className="max-w-3xl mx-auto px-6 py-24">
         <header className="mb-20 text-center">
           <h1 className="text-6xl font-black mb-6 tracking-tight text-[#ff6b6b]">
-            Math Vibes
+            Vibe Math
           </h1>
           <p className="text-2xl font-medium text-gray-600">
             Why anything beyond 4th grade arithmetic is ruining the vibe.
