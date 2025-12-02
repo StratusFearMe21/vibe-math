@@ -102,6 +102,11 @@ export default function Home() {
                   <span>0.9<span className="overline">9</span></span> 0.999...
                 </div>
               </Link>
+              <Link href="/bad/logs" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="font-serif italic">log</span> Logarithms
+                </div>
+              </Link>
             </div>
             <p className="mt-6 text-gray-600">
               Aggressive shapes. Unnecessary complexity. Just looking at them raises 
