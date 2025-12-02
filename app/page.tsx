@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Calculator from "@/components/Calculator";
 
 export default function Home() {
   return (
@@ -130,6 +131,8 @@ export default function Home() {
             </li>
           </ul>
         </section>
+
+        <Calculator />
 
         <footer className="text-center text-gray-400 text-sm">
           <p>Made with only +, -, *, and / in mind.</p>
