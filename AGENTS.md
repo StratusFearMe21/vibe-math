@@ -95,4 +95,3 @@ The website follows a "Math Vibes" design philosophy, prioritizing simplicity, w
 
 - A `Dockerfile` is present in the root.
 - `next.config.ts` is configured with `output: "standalone"` to optimize for containerized deployments.
-
