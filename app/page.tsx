@@ -1,4 +1,4 @@
-// import Image from "next/image"; removed
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -48,23 +48,31 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-3xl shadow-sm border-2 border-gray-100">
+          <div className="bg-white p-8 rounded-3xl shadow-sm border-2 border-[#ff6b6b]/10 hover:border-[#ff6b6b]/30 transition-all">
             <h2 className="text-3xl font-bold mb-4 text-red-500 flex items-center gap-3">
               <span className="text-4xl">🤢</span> The Bad
             </h2>
-            <div className="space-y-4 opacity-50">
-              <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500">
-                <span>[]</span> Brackets
-              </div>
-              <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500">
-                <span>∫</span> Integrals
-              </div>
-              <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500">
-                <span>∑</span> Sigma
-              </div>
-              <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500">
-                <span>√</span> Roots
-              </div>
+            <div className="space-y-4">
+              <Link href="/bad/brackets" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span>[]</span> Brackets
+                </div>
+              </Link>
+              <Link href="/bad/integrals" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span>∫</span> Integrals
+                </div>
+              </Link>
+              <Link href="/bad/sigma" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span>∑</span> Sigma
+                </div>
+              </Link>
+              <Link href="/bad/roots" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span>√</span> Roots
+                </div>
+              </Link>
             </div>
             <p className="mt-6 text-gray-600">
               Aggressive shapes. Unnecessary complexity. Just looking at them raises 
