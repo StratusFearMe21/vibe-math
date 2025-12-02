@@ -50,7 +50,7 @@ The website follows a "Math Vibes" design philosophy, prioritizing simplicity, w
 
 #### "The Good" Symbols (in `app/good/*`)
 1.  **Header**:
-    *   **Back Link**: "← Back to safety" (Gray to Green hover).
+    *   **Back Link**: "← Back to the vibe" (Gray to Green hover).
     *   **Symbol**: Massive 8xl size, opacity 80%, Green-600 font-mono.
     *   **Title**: 5xl Black font.
     *   **Subtitle**: Warm, affirming one-line praise.

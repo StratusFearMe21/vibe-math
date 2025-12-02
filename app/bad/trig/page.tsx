@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function RootsPage() {
+export default function TrigPage() {
   return (
     <div className="min-h-screen bg-[#fdfbf7] text-[#2c2c2c] font-sans selection:bg-[#ffcfcf]">
       <main className="max-w-3xl mx-auto px-6 py-24">
@@ -9,37 +9,32 @@ export default function RootsPage() {
         </Link>
         
         <header className="mb-16 text-center">
-          <div className="text-8xl font-mono text-red-500 mb-6 font-bold opacity-80">√</div>
+          <div className="text-8xl font-serif italic text-red-500 mb-6 font-bold opacity-80">θ</div>
           <h1 className="text-5xl font-black mb-6 tracking-tight text-[#ff6b6b]">
-            Roots
+            Trig Identities
           </h1>
           <p className="text-2xl font-medium text-gray-600">
-            A roof that collapsed on one side.
+            Circles don&apos;t need to be this complicated.
           </p>
         </header>
 
         <section className="bg-white p-12 rounded-3xl shadow-sm border-2 border-red-100 mb-16">
           <div className="prose prose-lg mx-auto">
             <p className="text-xl leading-relaxed mb-6">
-              It looks like a shelter, but it&apos;s a trap. It traps numbers underneath it and refuses to let them out whole.
+              Why does <span className="font-mono text-red-500">sin²(x) + cos²(x) = 1</span>? Who decided that? It feels like a secret code we were forced to memorize but never actually use.
             </p>
             <p className="text-xl leading-relaxed mb-6">
-              Square root of 9? Sure, that&apos;s 3. But square root of 2? <span className="font-mono text-red-500">1.41421356...</span> it never ends. 
-              It goes on forever. Irrational numbers are the definition of bad vibes. They are unresolved tension.
+              Then there are the &quot;reciprocal identities&quot;. Secant? Cosecant? Cotangent? It&apos;s just math trying to sound fancy. If you need 6 different names for relations between 3 sides of a triangle, you&apos;re trying too hard.
             </p>
             <p className="text-xl leading-relaxed">
-              If a number can&apos;t make up its mind and finish, it shouldn&apos;t be used. 
-              Roots introduce uncertainty and infinity into a world that should be finite and cozy.
-            </p>
-            <p className="text-xl leading-relaxed mt-6 pt-6 border-t border-red-50 text-gray-500 italic">
-              And don&apos;t even get me started on what happens when you try to take the root of a negative number. That leads straight to <Link href="/bad/imaginary" className="underline hover:text-red-600 font-medium">Imaginary Numbers</Link>.
+              And don&apos;t get me started on the double-angle formulas. They are shape-shifters. They change form just when you think you understand them. Trust issues, defined.
             </p>
           </div>
         </section>
 
         <div className="text-center">
           <div className="inline-block bg-[#fff5f5] px-8 py-4 rounded-full text-[#d63031] font-bold text-lg border border-[#ffd1d1]">
-            Vibe Rating: 0/10 - Unresolved issues
+            Vibe Rating: 1/10 - Too many aliases
           </div>
         </div>
       </main>
