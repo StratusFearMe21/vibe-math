@@ -24,23 +24,31 @@ export default function Home() {
         </section>
 
         <section className="grid md:grid-cols-2 gap-8 mb-20">
-          <div className="bg-white p-8 rounded-3xl shadow-sm border-2 border-[#ff6b6b]/10 hover:border-[#ff6b6b]/30 transition-all">
+          <div className="bg-white p-8 rounded-3xl shadow-sm border-2 border-green-600/10 hover:border-green-600/30 transition-all">
             <h2 className="text-3xl font-bold mb-4 text-green-600 flex items-center gap-3">
               <span className="text-4xl">😊</span> The Good
             </h2>
             <div className="space-y-4">
-              <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800">
-                <span>+</span> Plus
-              </div>
-              <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800">
-                <span>-</span> Minus
-              </div>
-              <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800">
-                <span>*</span> Times
-              </div>
-              <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800">
-                <span>/</span> Divide
-              </div>
+              <Link href="/good/plus" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800 opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span>+</span> Plus
+                </div>
+              </Link>
+              <Link href="/good/minus" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800 opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span>-</span> Minus
+                </div>
+              </Link>
+              <Link href="/good/times" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800 opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span>*</span> Times
+                </div>
+              </Link>
+              <Link href="/good/divide" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800 opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span>/</span> Divide
+                </div>
+              </Link>
             </div>
             <p className="mt-6 text-gray-600">
               Clean. Honest. You know exactly what they do. No hidden agendas. 

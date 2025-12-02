@@ -32,35 +32,46 @@ The website follows a "Math Vibes" design philosophy, prioritizing simplicity, w
 - **Emotional**: Focuses on "vibes," "feelings," and "anxiety" rather than technical arguments.
 - **Manifesto Style**: Uses numbered lists and bold declarations to parody serious manifestos.
 
-### Symbol Page Template
-Each "Bad" symbol page (in `app/bad/*`) follows a strict layout structure to ensure consistency:
+### Symbol Page Templates
 
+#### "The Bad" Symbols (in `app/bad/*`)
 1.  **Header**:
     *   **Back Link**: "← Back to safety" (Gray to Red hover).
     *   **Symbol**: Massive 8xl size, opacity 80%, Red-500 font-mono.
     *   **Title**: 5xl Black font.
     *   **Subtitle**: Witty, one-line dismissal of the concept.
-
 2.  **Content Card**:
     *   White background, heavy rounding (`rounded-3xl`), Red-100 border.
     *   **Arguments**: 3 paragraphs explaining why the symbol is "bad vibes".
-    *   **Inline Symbols**: When mentioning symbols, use a styled span (e.g., `bg-green-50 text-green-600` for good, `bg-red-50 text-red-600` for bad).
-
+    *   **Inline Symbols**: `bg-red-50 text-red-600`.
 3.  **Vibe Rating**:
-    *   Centered pill at the bottom.
     *   Red background (`bg-[#fff5f5]`), Red text (`text-[#d63031]`).
-    *   Format: "Vibe Rating: X/10 - [Humorous Reason]".
+    *   Format: "Vibe Rating: Low/10 - [Humorous Reason]".
+
+#### "The Good" Symbols (in `app/good/*`)
+1.  **Header**:
+    *   **Back Link**: "← Back to safety" (Gray to Green hover).
+    *   **Symbol**: Massive 8xl size, opacity 80%, Green-600 font-mono.
+    *   **Title**: 5xl Black font.
+    *   **Subtitle**: Warm, affirming one-line praise.
+2.  **Content Card**:
+    *   White background, heavy rounding (`rounded-3xl`), Green-100 border.
+    *   **Arguments**: 3 paragraphs explaining why the symbol is "good vibes".
+    *   **Inline Symbols**: `bg-green-50 text-green-600`.
+3.  **Vibe Rating**:
+    *   Green background (`bg-green-50`), Green text (`text-green-800`).
+    *   Format: "Vibe Rating: 10/10 - [Humorous Praise]".
 
 ## Essential Commands
 
 ### Development
-- `npm run dev`: Start the development server
-- `npm run lint`: Run linting checks
+- `pnpm dev`: Start the development server
+- `pnpm lint`: Run linting checks
 
 ### Build & Production
-- `npm run build`: Build the application for production
-- `npm run start`: Start the production server
-- `npm run type-check`: (If added) Run TypeScript checks (currently implicit in build)
+- `pnpm build`: Build the application for production
+- `pnpm start`: Start the production server
+- `pnpm type-check`: (If added) Run TypeScript checks (currently implicit in build)
 
 ## Project Structure
 
