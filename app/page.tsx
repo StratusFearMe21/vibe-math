@@ -33,21 +33,25 @@ export default function Home() {
               <Link href="/good/plus" className="block group">
                 <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800 opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
                   <span>+</span> Plus
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/good/minus" className="block group">
                 <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800 opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
                   <span>-</span> Minus
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/good/times" className="block group">
                 <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800 opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
                   <span>*</span> Times
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/good/divide" className="block group">
                 <div className="flex items-center gap-4 text-2xl font-mono bg-green-50 p-4 rounded-xl text-green-800 opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
                   <span>/</span> Divide
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
             </div>
@@ -63,48 +67,75 @@ export default function Home() {
             </h2>
             <div className="space-y-4">
               <Link href="/bad/brackets" className="block group">
-                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
-                  <span>[]</span> Brackets
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span>[]</span> Brackets
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/bad/integrals" className="block group">
-                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
-                  <span>∫</span> Integrals
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span>∫</span> Integrals
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/bad/sigma" className="block group">
-                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
-                  <span>∑</span> Sigma
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span>∑</span> Sigma
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/bad/roots" className="block group">
-                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
-                  <span>√</span> Roots
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span>√</span> Roots
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/bad/imaginary" className="block group">
-                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
-                  <span className="font-serif italic ">i</span> Imaginary numbers
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span className="font-serif italic ">i</span> Imaginary numbers
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/bad/trig" className="block group">
-                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
-                  <span className="font-serif italic">θ</span> Trig Identities
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span className="font-serif italic">θ</span> Trig Identities
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/bad/limits" className="block group">
-                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
-                  <span className="font-serif italic">lim</span> Limits
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span className="font-serif italic">lim</span> Limits
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/bad/recurring" className="block group">
-                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
-                  <span>0.9<span className="overline">9</span></span> 0.999...
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span>0.9<span className="overline">9</span></span> 0.999...
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
               <Link href="/bad/logs" className="block group">
-                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 line-through decoration-red-500 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
-                  <span className="font-serif italic">log</span> Logarithms
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span className="font-serif italic">log</span> Logarithms
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
             </div>
