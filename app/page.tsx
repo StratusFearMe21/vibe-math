@@ -82,14 +82,6 @@ export default function Home() {
                   <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>
               </Link>
-              <Link href="/bad/sigma" className="block group">
-                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
-                  <span className="flex items-center gap-4 line-through decoration-red-500">
-                    <span>∑</span> Sigma
-                  </span>
-                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
-                </div>
-              </Link>
               <Link href="/bad/roots" className="block group">
                 <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
                   <span className="flex items-center gap-4 line-through decoration-red-500">
@@ -126,6 +118,54 @@ export default function Home() {
                 <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
                   <span className="flex items-center gap-4 line-through decoration-red-500">
                     <span>0.9<span className="overline">9</span></span> 0.999...
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
+                </div>
+              </Link>
+              <Link href="/bad/variables" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span className="font-serif italic">x</span> Variables
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
+                </div>
+              </Link>
+              <Link href="/bad/exponents" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span className="font-serif italic">x⁻¹</span> Weird Exponents
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
+                </div>
+              </Link>
+              <Link href="/bad/cosecant" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span className="font-serif italic">csc</span> Cosecant
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
+                </div>
+              </Link>
+              <Link href="/bad/modulus" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span className="font-serif italic">%</span> Modulus
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
+                </div>
+              </Link>
+              <Link href="/bad/factorials" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span className="font-serif italic">!</span> Factorials
+                  </span>
+                  <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
+                </div>
+              </Link>
+              <Link href="/bad/approx" className="block group">
+                <div className="flex items-center gap-4 text-2xl font-mono bg-red-50 p-4 rounded-xl text-red-800 opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all cursor-pointer">
+                  <span className="flex items-center gap-4 line-through decoration-red-500">
+                    <span className="font-serif italic">≈</span> Approximately
                   </span>
                   <span className="ml-auto text-lg opacity-40 group-hover:opacity-100 transition-all translate-x-0 group-hover:translate-x-1">→</span>
                 </div>

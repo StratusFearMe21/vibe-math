@@ -28,8 +28,6 @@ export default function PlusPage() {
               It stands with its arms open, welcoming more numbers into the fold. It is the most optimistic of all symbols.
             </p>
             <p className="text-xl leading-relaxed">
-              Compare this to Sigma <span className="font-mono text-red-600 bg-red-50 px-2 rounded">∑</span>. 
-              Sigma is just &quot;Plus&quot; trying to look smart in a tuxedo, shouting at you to add up an infinite series. 
               Plus is your friend who just wants to give you another slice of pizza.
             </p>
           </div>

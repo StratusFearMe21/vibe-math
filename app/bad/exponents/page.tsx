@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function BracketsPage() {
+export default function ExponentsPage() {
   return (
     <div className="min-h-screen bg-[#fdfbf7] text-[#2c2c2c] font-sans selection:bg-[#ffcfcf]">
       <main className="max-w-3xl mx-auto px-6 py-24">
@@ -9,35 +9,32 @@ export default function BracketsPage() {
         </Link>
         
         <header className="mb-16 text-center">
-          <div className="text-8xl font-mono text-red-500 mb-6 font-bold opacity-80">[]</div>
+          <div className="text-8xl font-serif italic text-red-500 mb-6 font-bold opacity-80">x⁻¹</div>
           <h1 className="text-5xl font-black mb-6 tracking-tight text-[#ff6b6b]">
-            Brackets
+            Weird Exponents
           </h1>
           <p className="text-2xl font-medium text-gray-600">
-            The prison cells of mathematics.
+            Why are numbers floating? And why are they negative?
           </p>
         </header>
 
         <section className="bg-white p-12 rounded-3xl shadow-sm border-2 border-red-100 mb-16">
           <div className="prose prose-lg mx-auto">
             <p className="text-xl leading-relaxed mb-6">
-              Look at them. Rigid. Angular. Unforgiving. 
+              Exponents were fine when they just meant "multiply this number by itself." <span className="font-mono text-green-600">2³</span> is just <span className="font-mono text-green-600">2 * 2 * 2</span>. Wholesome. Honest.
             </p>
             <p className="text-xl leading-relaxed mb-6">
-              Parentheses <span className="font-mono text-green-600 bg-green-50 px-2 rounded">()</span> are acceptable. 
-              They curve. They embrace. They hug the numbers gently.
+              But then someone decided exponents could be negative. <span className="font-mono text-red-500">x⁻²</span>? What does it mean to multiply something by itself negative times? It's passive-aggressive math. It's flipping the script just to be difficult.
             </p>
             <p className="text-xl leading-relaxed">
-              Square brackets <span className="font-mono text-red-600 bg-red-50 px-2 rounded">[]</span> are walls. 
-              They box things in. They create harsh boundaries where none should exist. 
-              They remind us of matrices, which are essentially just spreadsheets having an identity crisis. Numbers shouldn't be locked in solitary confinements cell made of four right angles.
+              And fractional exponents? <span className="font-mono text-red-500">x½</span>? That's just a root in disguise. It's a root trying to look cool by hanging out in the superscript. We see through it.
             </p>
           </div>
         </section>
 
         <div className="text-center">
           <div className="inline-block bg-[#fff5f5] px-8 py-4 rounded-full text-[#d63031] font-bold text-lg border border-[#ffd1d1]">
-            Vibe Rating: 2/10 - Too claustrophobic
+            Vibe Rating: 1/10 - Unnecessarily lofty
           </div>
         </div>
       </main>

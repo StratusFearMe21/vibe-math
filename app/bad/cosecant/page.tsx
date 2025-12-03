@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function BracketsPage() {
+export default function CosecantPage() {
   return (
     <div className="min-h-screen bg-[#fdfbf7] text-[#2c2c2c] font-sans selection:bg-[#ffcfcf]">
       <main className="max-w-3xl mx-auto px-6 py-24">
@@ -9,35 +9,32 @@ export default function BracketsPage() {
         </Link>
         
         <header className="mb-16 text-center">
-          <div className="text-8xl font-mono text-red-500 mb-6 font-bold opacity-80">[]</div>
+          <div className="text-8xl font-serif italic text-red-500 mb-6 font-bold opacity-80">csc</div>
           <h1 className="text-5xl font-black mb-6 tracking-tight text-[#ff6b6b]">
-            Brackets
+            Cosecant
           </h1>
           <p className="text-2xl font-medium text-gray-600">
-            The prison cells of mathematics.
+            The third wheel of trigonometry.
           </p>
         </header>
 
         <section className="bg-white p-12 rounded-3xl shadow-sm border-2 border-red-100 mb-16">
           <div className="prose prose-lg mx-auto">
             <p className="text-xl leading-relaxed mb-6">
-              Look at them. Rigid. Angular. Unforgiving. 
+              Everyone knows sine and cosine. They're the popular kids. Even tangent gets invited to parties. But <span className="font-mono text-red-500">cosecant</span>? It's just trying too hard.
             </p>
             <p className="text-xl leading-relaxed mb-6">
-              Parentheses <span className="font-mono text-green-600 bg-green-50 px-2 rounded">()</span> are acceptable. 
-              They curve. They embrace. They hug the numbers gently.
+              It's literally just <span className="font-mono text-red-500">1/sin</span>. Why does it need its own name? It's a reciprocal with an ego problem. "Ooh, look at me, I'm the hypotenuse over the opposite side." Nobody cares.
             </p>
             <p className="text-xl leading-relaxed">
-              Square brackets <span className="font-mono text-red-600 bg-red-50 px-2 rounded">[]</span> are walls. 
-              They box things in. They create harsh boundaries where none should exist. 
-              They remind us of matrices, which are essentially just spreadsheets having an identity crisis. Numbers shouldn't be locked in solitary confinements cell made of four right angles.
+              And the abbreviation? <span className="font-mono text-red-500">csc</span>. It sounds like a hiss. It's unpleasant to say and unpleasant to calculate. Just flip sine and move on with your life.
             </p>
           </div>
         </section>
 
         <div className="text-center">
           <div className="inline-block bg-[#fff5f5] px-8 py-4 rounded-full text-[#d63031] font-bold text-lg border border-[#ffd1d1]">
-            Vibe Rating: 2/10 - Too claustrophobic
+            Vibe Rating: 0/10 - Redundant and needy
           </div>
         </div>
       </main>
